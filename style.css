@@ -1,0 +1,119 @@
+
+body {
+    background-image: url('img/Red\ and\ Brown\ Simple\ Photo\ December\ 2022\ Calendar\ Desktop\ Wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Asegura que no haya márgenes alrededor del cuerpo */
+    padding: 0; /* Asegura que no haya relleno alrededor del cuerpo */
+    height: 100vh; /* Hace que el cuerpo ocupe el 100% de la altura visible del viewport */
+    display: flex; /* Utiliza el modelo de caja flexible para el contenido */
+    flex-direction: column; /* Apila los elementos hijos verticalmente */
+    color: #333;
+}
+
+.container {
+    flex: 1; /* Hace que el contenedor principal se expanda y ocupe el espacio restante */
+    max-width: 600px;
+}
+
+header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  
+}
+
+
+form {
+   text-align: center;
+}
+
+/* Personalizar estilos para la página principal */
+h1 {
+    color: #ec1404;
+    text-align: center;
+    
+  
+    
+}
+
+p{
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 10px; /* Puedes ajustar el valor según el grado de curvatura que desees */
+}
+
+
+
+h3{
+    text-align: center;
+    
+    
+}
+.imgGolo {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    height: 45%;
+    width: 120%;
+    margin-bottom: 60%;
+}
+
+
+
+.headerhome{
+  
+    text-align: center;
+    height:70% ;
+    width:80% ; 
+    background-color: rgba(0, 0, 0, 0.267); 
+   
+
+}
+
+
+.h1home{
+    text-align: center;
+    color: rgb(238, 216, 16);
+    font-style: italic;
+    font-size: 150%;
+   
+}
+
+.containerhome {
+    height: 30%;
+    width: 50%;
+}
+
+.imgGolohome{
+    margin-top: 33%;
+    text-align: center;
+    height: 45%;
+    width: 80%;
+    
+
+} 
+
+
+/* Añade más media queries según tus necesidades */
+
+/* Añadir estilos adicionales si es necesario */
+
+
+/* Añade más media queries según tus necesidades */
+
+/* Añadir estilos adicionales si es necesario */
+
+
+/* Añade más media queries según tus necesidades */
+
+/* Añadir estilos adicionales si es necesario */

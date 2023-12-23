@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>saludo2023</title>
+
+   <!-- Bootstrap CSS desde CDN -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyMVIISnIquVU5+P5dJ87D5PghbofJ8fQ" crossorigin="anonymous">
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body class=" bg-dark text-white" style="background-image: url('./img/pexels-acharaporn-kamornboonyarush-1028723.jpg'); background-size: cover; background-repeat: no-repeat;">
+
+   <div class="containerhome  container mt-5">
+       <header class="headerhome text-center">
+           <h1 class=" h1home display-4"><span id="nombreUsuario"></span> que decirte? Gracias por compartir todo este año juntos a nuestro equipo, gracias por confiar,y trabajar en conjunto para salir adelante, gracias por bancarnos y hacernos sentir ,de una manera sensacional nuestro día de trabajo.
+            Te deseo lo mejor para este nuevo año que entra ,con mucha salud trabajo , y sobre todo amor. Demás está decir  que podes contar con el equipo de Golomax para lo que necesites. Te mando un fuerte y calido abrazo !!! Salud!!</h1>
+         <h3><img class="imgGolohome"    src="./img/logoGolomax(Nombre).png" alt=""></h3>
+        </header>
+
+       <!-- Contenido principal va aquí -->
+
+   </div>
+
+   <!-- Bootstrap JS desde CDN -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js" integrity="sha384-v8e5woHcAQCKG/JzDA/9aAqshpl4lTuzMKrxS7xjOGfFaI8eII6l7M6QEe5D5/EE" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyMVIISnIquVU5+P5dJ87D5PghbofJ8fQ" crossorigin="anonymous"></script>
+
+   <script>
+       // Obtener el nombre de la URL y mostrarlo en la página
+       const params = new URLSearchParams(window.location.search);
+       const nombre = params.get('nombre');
+       document.getElementById('nombreUsuario').innerText = nombre;
+   </script>
+</body>
+</html>
